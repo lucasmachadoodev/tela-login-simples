@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(180deg, rgba(94,94,246,1) 0%, rgba(41,160,232,1) 100%) no-repeat;
+    background-size: cover;
+    height:auto;
+    
+}
+.container{
+    background-color: rgb(236, 236, 236);
+    height: 130px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.container ul{
+    padding: 10px;
+    text-decoration:none;
+    list-style-type: none
+
+}
+
+.container ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 600;
+    margin: 0 65px;
+    float: right;
+    margin-top: 9px;
+       
+}
+
+.btn{
+    float: right;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(39, 100, 161);
+}
+
+.logo h1{
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+
+/* CONTEÚDO */
+
+.conteudo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* align-items: right; */
+
+}
+
+.conteudo h2{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+input{
+    
+    border: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(11, 57, 103);
+    color: white;
+    text-decoration: none;
+    margin: 10px 115px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(26, 101, 177);
+}
+
+.rodape{
+    background-color: rgb(240, 240, 240);
+    height: 50px;
+    display: flex;
+    margin-top: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape h3{
+    text-align: center;
+    color: #313131;
+    font-weight: 400;
+    font-size: 10px;
+
+}
